@@ -1,0 +1,188 @@
+openapi: 3.0.0
+info:
+  title: Pokemon API
+  description: Simple API for pokemon related stuff
+  version: 1.0.0
+servers:
+  - url: /
+paths:
+  # --- POKEMON API ---
+  /pokemon:
+    get:
+      description: Returns a random pokemon
+      tags:
+        - pokemon
+      operationId: pokemonGET
+      parameters:
+        - name: type
+          in: query
+          description: Specify a pokemon type
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: string
+        - name: weaknesses
+          in: query
+          description: Specify a pokemon weaknesses
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Pokemon"
+        "400":
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/inline_response_400"
+      x-swagger-router-controller: Default
+  /pokemon/{pokemon_id}:
+    get:
+      description: Get a pokemon by id
+      tags:
+        - pokemon
+      operationId: pokemonPokemon_idGET
+      parameters:
+        - name: pokemon_id
+          in: path
+          required: true
+          style: simple
+          explode: false
+          schema:
+            type: number
+      responses:
+        "200":
+          description: Successfully return a pokemon
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Pokemon"
+        "400":
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/inline_response_400"
+      x-swagger-router-controller: Default
+
+  # --- TRAINER API ---
+  /trainer/{trainer_id}:
+    get:
+      description: Returns a specific trainer
+      tags:
+        - trainer
+      parameters:
+        - name: trainer_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Trainer"
+        "400":
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/inline_response_400"
+
+  /trainer:
+    post:
+      description: Creates a trainer
+      tags:
+        - trainer
+      requestBody:
+        description: Request payload to create a new trainer
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                age:
+                  type: number
+                birthday:
+                  type: string
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Trainer"
+        "400":
+          description: Invalid Request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/inline_response_400"
+components:
+  schemas:
+    # --- Pokemon ---
+    Pokemon:
+      type: object
+      properties:
+        id:
+          type: number
+        name:
+          type: string
+        type:
+          type: string
+        weaknesses:
+          type: object
+          additionalProperties:
+            type: integer
+      example:
+        id: 1
+        weaknesses: { water: 2 }
+        name: charizard
+        type: fire
+
+    # --- Trainer ---
+    Trainer:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        age:
+          type: number
+        birthday:
+          type: string
+        pokemon_party:
+          type: array
+          items:
+            $ref: "#/components/schemas/Pokemon"
+        badges:
+          type: number
+      example:
+        id: "123456789"
+        name: ash
+        age: 13
+        birthday: 10/10/2023
+        pokemon_party:
+          [{ id: 1, name: charizard, type: fire, weaknesses: { water: 2 } }]
+        badges: 8
+    inline_response_400:
+      type: object
+      properties:
+        message:
+          type: string

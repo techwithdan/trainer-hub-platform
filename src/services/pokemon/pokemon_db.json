@@ -1,0 +1,1489 @@
+[
+  {
+    "id": "001",
+    "name": "Bulbasaur",
+    "type": "Grass/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "flying": 2,
+      "psychic": 2
+    }
+  },
+  {
+    "id": "002",
+    "name": "Ivysaur",
+    "type": "Grass/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "flying": 2,
+      "psychic": 2
+    }
+  },
+  {
+    "id": "003",
+    "name": "Venusaur",
+    "type": "Grass/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "flying": 2,
+      "psychic": 2
+    }
+  },
+  {
+    "id": "004",
+    "name": "Charmander",
+    "type": "Fire",
+    "weaknesses": {
+      "water": 2,
+      "rock": 4,
+      "ground": 2
+    }
+  },
+  {
+    "id": "005",
+    "name": "Charmeleon",
+    "type": "Fire",
+    "weaknesses": {
+      "water": 2,
+      "rock": 4,
+      "ground": 2
+    }
+  },
+  {
+    "id": "006",
+    "name": "Charizard",
+    "type": "Fire/Flying",
+    "weaknesses": {
+      "water": 2,
+      "electric": 2,
+      "rock": 4
+    }
+  },
+  {
+    "id": "007",
+    "name": "Squirtle",
+    "type": "Water",
+    "weaknesses": {
+      "grass": 2,
+      "electric": 2
+    }
+  },
+  {
+    "id": "008",
+    "name": "Wartortle",
+    "type": "Water",
+    "weaknesses": {
+      "grass": 2,
+      "electric": 2
+    }
+  },
+  {
+    "id": "009",
+    "name": "Blastoise",
+    "type": "Water",
+    "weaknesses": {
+      "grass": 2,
+      "electric": 2
+    }
+  },
+  {
+    "id": "010",
+    "name": "Caterpie",
+    "type": "Bug",
+    "weaknesses": {
+      "fire": 2,
+      "flying": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "011",
+    "name": "Metapod",
+    "type": "Bug",
+    "weaknesses": {
+      "fire": 2,
+      "flying": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "012",
+    "name": "Butterfree",
+    "type": "Bug/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "ice": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "013",
+    "name": "Weedle",
+    "type": "Bug/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "flying": 2,
+      "psychic": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "014",
+    "name": "Kakuna",
+    "type": "Bug/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "flying": 2,
+      "psychic": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "015",
+    "name": "Beedrill",
+    "type": "Bug/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "flying": 2,
+      "psychic": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "016",
+    "name": "Pidgey",
+    "type": "Normal/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "ice": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "017",
+    "name": "Pidgeotto",
+    "type": "Normal/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "ice": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "018",
+    "name": "Pidgeot",
+    "type": "Normal/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "ice": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "019",
+    "name": "Rattata",
+    "type": "Normal",
+    "weaknesses": {
+      "fighting": 2
+    }
+  },
+  {
+    "id": "020",
+    "name": "Raticate",
+    "type": "Normal",
+    "weaknesses": {
+      "fighting": 2
+    }
+  },
+  {
+    "id": "021",
+    "name": "Spearow",
+    "type": "Normal/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "ice": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "022",
+    "name": "Fearow",
+    "type": "Normal/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "ice": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "023",
+    "name": "Ekans",
+    "type": "Poison",
+    "weaknesses": {
+      "psychic": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "024",
+    "name": "Arbok",
+    "type": "Poison",
+    "weaknesses": {
+      "psychic": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "025",
+    "name": "Pikachu",
+    "type": "Electric",
+    "weaknesses": {
+      "ground": 2
+    }
+  },
+  {
+    "id": "026",
+    "name": "Raichu",
+    "type": "Electric",
+    "weaknesses": {
+      "ground": 2
+    }
+  },
+  {
+    "id": "027",
+    "name": "Sandshrew",
+    "type": "Ground",
+    "weaknesses": {
+      "water": 2,
+      "ice": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "028",
+    "name": "Sandslash",
+    "type": "Ground",
+    "weaknesses": {
+      "water": 2,
+      "ice": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "029",
+    "name": "Nidoran♀",
+    "type": "Poison",
+    "weaknesses": {
+      "psychic": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "030",
+    "name": "Nidorina",
+    "type": "Poison",
+    "weaknesses": {
+      "psychic": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "031",
+    "name": "Nidoqueen",
+    "type": "Poison/Ground",
+    "weaknesses": {
+      "water": 2,
+      "ice": 2,
+      "psychic": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "032",
+    "name": "Nidoran♂",
+    "type": "Poison",
+    "weaknesses": {
+      "psychic": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "033",
+    "name": "Nidorino",
+    "type": "Poison",
+    "weaknesses": {
+      "psychic": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "034",
+    "name": "Nidoking",
+    "type": "Poison/Ground",
+    "weaknesses": {
+      "water": 2,
+      "ice": 2,
+      "psychic": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "035",
+    "name": "Clefairy",
+    "type": "Fairy",
+    "weaknesses": {
+      "poison": 2,
+      "steel": 2
+    }
+  },
+  {
+    "id": "036",
+    "name": "Clefable",
+    "type": "Fairy",
+    "weaknesses": {
+      "poison": 2,
+      "steel": 2
+    }
+  },
+  {
+    "id": "037",
+    "name": "Vulpix",
+    "type": "Fire",
+    "weaknesses": {
+      "water": 2,
+      "rock": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "038",
+    "name": "Ninetales",
+    "type": "Fire",
+    "weaknesses": {
+      "water": 2,
+      "rock": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "039",
+    "name": "Jigglypuff",
+    "type": "Normal/Fairy",
+    "weaknesses": {
+      "steel": 2,
+      "poison": 2
+    }
+  },
+  {
+    "id": "040",
+    "name": "Wigglytuff",
+    "type": "Normal/Fairy",
+    "weaknesses": {
+      "steel": 2,
+      "poison": 2
+    }
+  },
+  {
+    "id": "041",
+    "name": "Zubat",
+    "type": "Poison/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "ice": 2,
+      "psychic": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "042",
+    "name": "Golbat",
+    "type": "Poison/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "ice": 2,
+      "psychic": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "043",
+    "name": "Oddish",
+    "type": "Grass/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "ice": 2,
+      "psychic": 2,
+      "flying": 2
+    }
+  },
+  {
+    "id": "044",
+    "name": "Gloom",
+    "type": "Grass/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "ice": 2,
+      "psychic": 2,
+      "flying": 2
+    }
+  },
+  {
+    "id": "045",
+    "name": "Vileplume",
+    "type": "Grass/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "ice": 2,
+      "psychic": 2,
+      "flying": 2
+    }
+  },
+  {
+    "id": "046",
+    "name": "Paras",
+    "type": "Bug/Grass",
+    "weaknesses": {
+      "fire": 4,
+      "ice": 4,
+      "poison": 2,
+      "flying": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "047",
+    "name": "Parasect",
+    "type": "Bug/Grass",
+    "weaknesses": {
+      "fire": 4,
+      "ice": 4,
+      "poison": 2,
+      "flying": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "048",
+    "name": "Venonat",
+    "type": "Bug/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "flying": 2,
+      "psychic": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "049",
+    "name": "Venomoth",
+    "type": "Bug/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "flying": 2,
+      "psychic": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "050",
+    "name": "Diglett",
+    "type": "Ground",
+    "weaknesses": {
+      "water": 2,
+      "ice": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "051",
+    "name": "Dugtrio",
+    "type": "Ground",
+    "weaknesses": {
+      "water": 2,
+      "ice": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "052",
+    "name": "Meowth",
+    "type": "Normal",
+    "weaknesses": {
+      "fighting": 2
+    }
+  },
+  {
+    "id": "053",
+    "name": "Persian",
+    "type": "Normal",
+    "weaknesses": {
+      "fighting": 2
+    }
+  },
+  {
+    "id": "054",
+    "name": "Psyduck",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "055",
+    "name": "Golduck",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "056",
+    "name": "Mankey",
+    "type": "Fighting",
+    "weaknesses": {
+      "psychic": 2,
+      "flying": 2
+    }
+  },
+  {
+    "id": "057",
+    "name": "Primeape",
+    "type": "Fighting",
+    "weaknesses": {
+      "psychic": 2,
+      "flying": 2
+    }
+  },
+  {
+    "id": "058",
+    "name": "Growlithe",
+    "type": "Fire",
+    "weaknesses": {
+      "water": 2,
+      "rock": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "059",
+    "name": "Arcanine",
+    "type": "Fire",
+    "weaknesses": {
+      "water": 2,
+      "rock": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "060",
+    "name": "Poliwag",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "061",
+    "name": "Poliwhirl",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "062",
+    "name": "Poliwrath",
+    "type": "Water/Fighting",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2,
+      "psychic": 2,
+      "flying": 2,
+      "fairy": 2
+    }
+  },
+  {
+    "id": "063",
+    "name": "Abra",
+    "type": "Psychic",
+    "weaknesses": {
+      "bug": 2,
+      "ghost": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "064",
+    "name": "Kadabra",
+    "type": "Psychic",
+    "weaknesses": {
+      "bug": 2,
+      "ghost": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "065",
+    "name": "Alakazam",
+    "type": "Psychic",
+    "weaknesses": {
+      "bug": 2,
+      "ghost": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "066",
+    "name": "Machop",
+    "type": "Fighting",
+    "weaknesses": {
+      "psychic": 2,
+      "flying": 2
+    }
+  },
+  {
+    "id": "067",
+    "name": "Machoke",
+    "type": "Fighting",
+    "weaknesses": {
+      "psychic": 2,
+      "flying": 2
+    }
+  },
+  {
+    "id": "068",
+    "name": "Machamp",
+    "type": "Fighting",
+    "weaknesses": {
+      "psychic": 2,
+      "flying": 2
+    }
+  },
+  {
+    "id": "069",
+    "name": "Bellsprout",
+    "type": "Grass/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "ice": 2,
+      "psychic": 2,
+      "flying": 2
+    }
+  },
+  {
+    "id": "070",
+    "name": "Weepinbell",
+    "type": "Grass/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "ice": 2,
+      "psychic": 2,
+      "flying": 2
+    }
+  },
+  {
+    "id": "071",
+    "name": "Victreebel",
+    "type": "Grass/Poison",
+    "weaknesses": {
+      "fire": 2,
+      "ice": 2,
+      "psychic": 2,
+      "flying": 2
+    }
+  },
+  {
+    "id": "072",
+    "name": "Tentacool",
+    "type": "Water/Poison",
+    "weaknesses": {
+      "electric": 2,
+      "ground": 2,
+      "psychic": 2
+    }
+  },
+  {
+    "id": "073",
+    "name": "Tentacruel",
+    "type": "Water/Poison",
+    "weaknesses": {
+      "electric": 2,
+      "ground": 2,
+      "psychic": 2
+    }
+  },
+  {
+    "id": "074",
+    "name": "Geodude",
+    "type": "Rock/Ground",
+    "weaknesses": {
+      "water": 4,
+      "ice": 4,
+      "grass": 4,
+      "fighting": 2,
+      "steel": 2
+    }
+  },
+  {
+    "id": "075",
+    "name": "Graveler",
+    "type": "Rock/Ground",
+    "weaknesses": {
+      "water": 4,
+      "ice": 4,
+      "grass": 4,
+      "fighting": 2,
+      "steel": 2
+    }
+  },
+  {
+    "id": "076",
+    "name": "Golem",
+    "type": "Rock/Ground",
+    "weaknesses": {
+      "water": 4,
+      "ice": 4,
+      "grass": 4,
+      "fighting": 2,
+      "steel": 2
+    }
+  },
+  {
+    "id": "077",
+    "name": "Ponyta",
+    "type": "Fire",
+    "weaknesses": {
+      "water": 2,
+      "rock": 4,
+      "ground": 2
+    }
+  },
+  {
+    "id": "078",
+    "name": "Rapidash",
+    "type": "Fire",
+    "weaknesses": {
+      "water": 2,
+      "rock": 4,
+      "ground": 2
+    }
+  },
+  {
+    "id": "079",
+    "name": "Slowpoke",
+    "type": "Water/Psychic",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2,
+      "bug": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "080",
+    "name": "Slowbro",
+    "type": "Water/Psychic",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2,
+      "bug": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "081",
+    "name": "Magnemite",
+    "type": "Electric/Steel",
+    "weaknesses": {
+      "ground": 2,
+      "fire": 2
+    }
+  },
+  {
+    "id": "082",
+    "name": "Magneton",
+    "type": "Electric/Steel",
+    "weaknesses": {
+      "ground": 2,
+      "fire": 2
+    }
+  },
+  {
+    "id": "083",
+    "name": "Farfetch'd",
+    "type": "Normal/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "ice": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "084",
+    "name": "Doduo",
+    "type": "Normal/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "ice": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "085",
+    "name": "Dodrio",
+    "type": "Normal/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "ice": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "086",
+    "name": "Seel",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2,
+      "fighting": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "087",
+    "name": "Dewgong",
+    "type": "Water/Ice",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2,
+      "fighting": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "088",
+    "name": "Grimer",
+    "type": "Poison",
+    "weaknesses": {
+      "psychic": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "089",
+    "name": "Muk",
+    "type": "Poison",
+    "weaknesses": {
+      "psychic": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "090",
+    "name": "Shellder",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "091",
+    "name": "Cloyster",
+    "type": "Water/Ice",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2,
+      "fighting": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "092",
+    "name": "Gastly",
+    "type": "Ghost/Poison",
+    "weaknesses": {
+      "ghost": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "093",
+    "name": "Haunter",
+    "type": "Ghost/Poison",
+    "weaknesses": {
+      "ghost": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "094",
+    "name": "Gengar",
+    "type": "Ghost/Poison",
+    "weaknesses": {
+      "ghost": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "095",
+    "name": "Onix",
+    "type": "Rock/Ground",
+    "weaknesses": {
+      "water": 4,
+      "ice": 4,
+      "grass": 4,
+      "fighting": 2,
+      "steel": 2
+    }
+  },
+  {
+    "id": "096",
+    "name": "Drowzee",
+    "type": "Psychic",
+    "weaknesses": {
+      "bug": 2,
+      "ghost": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "097",
+    "name": "Hypno",
+    "type": "Psychic",
+    "weaknesses": {
+      "bug": 2,
+      "ghost": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "098",
+    "name": "Krabby",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "099",
+    "name": "Kingler",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "100",
+    "name": "Voltorb",
+    "type": "Electric",
+    "weaknesses": {
+      "ground": 2
+    }
+  },
+  {
+    "id": "101",
+    "name": "Electrode",
+    "type": "Electric",
+    "weaknesses": {
+      "ground": 2
+    }
+  },
+  {
+    "id": "102",
+    "name": "Exeggcute",
+    "type": "Grass/Psychic",
+    "weaknesses": {
+      "fire": 2,
+      "ice": 2,
+      "flying": 2,
+      "poison": 2,
+      "bug": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "103",
+    "name": "Exeggutor",
+    "type": "Grass/Psychic",
+    "weaknesses": {
+      "fire": 2,
+      "ice": 2,
+      "flying": 2,
+      "poison": 2,
+      "bug": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "104",
+    "name": "Cubone",
+    "type": "Ground",
+    "weaknesses": {
+      "water": 2,
+      "ice": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "105",
+    "name": "Marowak",
+    "type": "Ground",
+    "weaknesses": {
+      "water": 2,
+      "ice": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "106",
+    "name": "Hitmonlee",
+    "type": "Fighting",
+    "weaknesses": {
+      "psychic": 2,
+      "flying": 2,
+      "fairy": 2
+    }
+  },
+  {
+    "id": "107",
+    "name": "Hitmonchan",
+    "type": "Fighting",
+    "weaknesses": {
+      "psychic": 2,
+      "flying": 2,
+      "fairy": 2
+    }
+  },
+  {
+    "id": "108",
+    "name": "Lickitung",
+    "type": "Normal",
+    "weaknesses": {
+      "fighting": 2
+    }
+  },
+  {
+    "id": "109",
+    "name": "Koffing",
+    "type": "Poison",
+    "weaknesses": {
+      "psychic": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "110",
+    "name": "Weezing",
+    "type": "Poison",
+    "weaknesses": {
+      "psychic": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "111",
+    "name": "Rhyhorn",
+    "type": "Ground/Rock",
+    "weaknesses": {
+      "water": 4,
+      "ice": 4,
+      "grass": 4,
+      "fighting": 2,
+      "steel": 2
+    }
+  },
+  {
+    "id": "112",
+    "name": "Rhydon",
+    "type": "Ground/Rock",
+    "weaknesses": {
+      "water": 4,
+      "ice": 4,
+      "grass": 4,
+      "fighting": 2,
+      "steel": 2
+    }
+  },
+  {
+    "id": "113",
+    "name": "Chansey",
+    "type": "Normal",
+    "weaknesses": {
+      "fighting": 2
+    }
+  },
+  {
+    "id": "114",
+    "name": "Tangela",
+    "type": "Grass",
+    "weaknesses": {
+      "fire": 2,
+      "ice": 2,
+      "flying": 2,
+      "poison": 2,
+      "bug": 2
+    }
+  },
+  {
+    "id": "115",
+    "name": "Kangaskhan",
+    "type": "Normal",
+    "weaknesses": {
+      "fighting": 2
+    }
+  },
+  {
+    "id": "116",
+    "name": "Horsea",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "117",
+    "name": "Seadra",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "118",
+    "name": "Goldeen",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "119",
+    "name": "Seaking",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "120",
+    "name": "Staryu",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "121",
+    "name": "Starmie",
+    "type": "Water/Psychic",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2,
+      "bug": 2,
+      "ghost": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "122",
+    "name": "Mr. Mime",
+    "type": "Psychic/Fairy",
+    "weaknesses": {
+      "ghost": 2,
+      "steel": 2,
+      "poison": 2
+    }
+  },
+  {
+    "id": "123",
+    "name": "Scyther",
+    "type": "Bug/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "ice": 2,
+      "rock": 4
+    }
+  },
+  {
+    "id": "124",
+    "name": "Jynx",
+    "type": "Ice/Psychic",
+    "weaknesses": {
+      "fire": 2,
+      "bug": 2,
+      "rock": 2,
+      "ghost": 2,
+      "dark": 2,
+      "steel": 2
+    }
+  },
+  {
+    "id": "125",
+    "name": "Electabuzz",
+    "type": "Electric",
+    "weaknesses": {
+      "ground": 2
+    }
+  },
+  {
+    "id": "126",
+    "name": "Magmar",
+    "type": "Fire",
+    "weaknesses": {
+      "water": 2,
+      "rock": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "127",
+    "name": "Pinsir",
+    "type": "Bug",
+    "weaknesses": {
+      "fire": 2,
+      "flying": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "128",
+    "name": "Tauros",
+    "type": "Normal",
+    "weaknesses": {
+      "fighting": 2
+    }
+  },
+  {
+    "id": "129",
+    "name": "Magikarp",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "130",
+    "name": "Gyarados",
+    "type": "Water/Flying",
+    "weaknesses": {
+      "electric": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "131",
+    "name": "Lapras",
+    "type": "Water/Ice",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2,
+      "fighting": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "132",
+    "name": "Ditto",
+    "type": "Normal",
+    "weaknesses": {
+      "fighting": 2
+    }
+  },
+  {
+    "id": "133",
+    "name": "Eevee",
+    "type": "Normal",
+    "weaknesses": {
+      "fighting": 2
+    }
+  },
+  {
+    "id": "134",
+    "name": "Vaporeon",
+    "type": "Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2
+    }
+  },
+  {
+    "id": "135",
+    "name": "Jolteon",
+    "type": "Electric",
+    "weaknesses": {
+      "ground": 2
+    }
+  },
+  {
+    "id": "136",
+    "name": "Flareon",
+    "type": "Fire",
+    "weaknesses": {
+      "water": 2,
+      "rock": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "137",
+    "name": "Porygon",
+    "type": "Normal",
+    "weaknesses": {
+      "fighting": 2
+    }
+  },
+  {
+    "id": "138",
+    "name": "Omanyte",
+    "type": "Rock/Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2,
+      "fighting": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "139",
+    "name": "Omastar",
+    "type": "Rock/Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2,
+      "fighting": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "140",
+    "name": "Kabuto",
+    "type": "Rock/Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2,
+      "fighting": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "141",
+    "name": "Kabutops",
+    "type": "Rock/Water",
+    "weaknesses": {
+      "electric": 2,
+      "grass": 2,
+      "fighting": 2,
+      "ground": 2
+    }
+  },
+  {
+    "id": "142",
+    "name": "Aerodactyl",
+    "type": "Rock/Flying",
+    "weaknesses": {
+      "water": 2,
+      "electric": 2,
+      "ice": 2,
+      "rock": 2,
+      "steel": 2
+    }
+  },
+  {
+    "id": "143",
+    "name": "Snorlax",
+    "type": "Normal",
+    "weaknesses": {
+      "fighting": 2
+    }
+  },
+  {
+    "id": "144",
+    "name": "Articuno",
+    "type": "Ice/Flying",
+    "weaknesses": {
+      "rock": 2,
+      "electric": 2,
+      "steel": 2
+    }
+  },
+  {
+    "id": "145",
+    "name": "Zapdos",
+    "type": "Electric/Flying",
+    "weaknesses": {
+      "ice": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "146",
+    "name": "Moltres",
+    "type": "Fire/Flying",
+    "weaknesses": {
+      "water": 2,
+      "electric": 2,
+      "rock": 2
+    }
+  },
+  {
+    "id": "147",
+    "name": "Dratini",
+    "type": "Dragon",
+    "weaknesses": {
+      "ice": 2,
+      "dragon": 2
+    }
+  },
+  {
+    "id": "148",
+    "name": "Dragonair",
+    "type": "Dragon",
+    "weaknesses": {
+      "ice": 2,
+      "dragon": 2
+    }
+  },
+  {
+    "id": "149",
+    "name": "Dragonite",
+    "type": "Dragon/Flying",
+    "weaknesses": {
+      "ice": 2,
+      "rock": 2,
+      "dragon": 2
+    }
+  },
+  {
+    "id": "150",
+    "name": "Mewtwo",
+    "type": "Psychic",
+    "weaknesses": {
+      "bug": 2,
+      "ghost": 2,
+      "dark": 2
+    }
+  },
+  {
+    "id": "151",
+    "name": "Mew",
+    "type": "Psychic",
+    "weaknesses": {
+      "bug": 2,
+      "ghost": 2,
+      "dark": 2
+    }
+  }
+]

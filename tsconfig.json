@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", // Use the appropriate module system (commonjs or esnext)
+    "target": "es6", // Specify your target ECMAScript version
+    "baseUrl": "./",
+    "outDir": "./dist", // Specify your output directory for compiled code
+    "strict": true,
+    "esModuleInterop": true, // Enable ES module interoperability
+    "skipLibCheck": true, // Optional: skip type checking of declaration files (recommended for large projects)
+    "forceConsistentCasingInFileNames": true, // Optional: enforce consistent file name casing
+    "resolveJsonModule": true
+    // If you want to use path aliases, configure the "paths" option:
+    // "paths": {
+    //   "@src/*": ["src/*"],
+    //   "@types/*": ["types/*"]
+    // }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "main": "./src/app.ts"
+}
