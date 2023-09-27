@@ -2,15 +2,15 @@ import { Request, Response } from "express";
 import { Pokemon } from "src/types/pokemon/pokemon";
 import { getPokemonById, getPokemonByFilter } from "../../services/pokemon";
 
-export function getPokemonByFilterController(
+export async function getPokemonByFilterController(
   req: Request,
   res: Response
-): void {
+): Promise<void> {
   const { type = "", weaknesses = "" } = req.query as {
     type?: string;
     weaknesses?: string;
   };
-  const pokemon: Pokemon[] = getPokemonByFilter({ type, weaknesses });
+  const pokemon: Pokemon[] = await getPokemonByFilter({ type, weaknesses });
   res.status(200).json(pokemon);
 }
 
