@@ -3,4 +3,5 @@ export interface Pokemon {
   name: string;
   type: string;
   weaknesses: Record<string, number | undefined>;
+  img?: string;
 }

@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import { Pokemon } from "src/types/pokemon/pokemon";
 import { getPokemonById, getPokemonByFilter } from "../../services/pokemon";
+import axios from "axios"
 
 export async function getPokemonByFilterController(
   req: Request,

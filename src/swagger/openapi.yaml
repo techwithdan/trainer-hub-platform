@@ -149,12 +149,14 @@ components:
           type: object
           additionalProperties:
             type: integer
+        img:
+          type: string
       example:
         id: 1
         weaknesses: { water: 2 }
         name: charizard
         type: fire
-
+        img: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png
     # --- Trainer ---
     Trainer:
       type: object
