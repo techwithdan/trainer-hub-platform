@@ -1,12 +1,12 @@
 import express, { Request, Response } from "express";
-var cors = require('cors')
+import cors from "cors";
 import swaggerUi from "swagger-ui-express";
 import { swaggerSpec } from "./swagger/config";
 import { pokemon_router } from "./routes/pokemon/index";
 import { trainer_router } from "./routes/trainer";
 
 const app = express();
-app.use(cors())
+app.use(cors());
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.get("/", (_: Request, res: Response) => {

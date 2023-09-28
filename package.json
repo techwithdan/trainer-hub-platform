@@ -14,6 +14,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@types/cors": "^2.8.14",
     "axios": "^1.5.1",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
@@ -26,6 +27,5 @@
     "dev": "nodemon --watch src/**/*.ts --exec ts-node src/app.ts",
     "build": "tsc",
     "start": "node dist/index.js "
-
   }
 }
