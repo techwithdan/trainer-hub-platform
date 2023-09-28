@@ -9,7 +9,6 @@ import axios from "axios";
 async function getRandomPokemon(): Promise<Pokemon> {
   const index = Math.floor(Math.random() * list_of_pokemon.length);
   const { id } = list_of_pokemon[index];
-  console.log(Number(id).toString());
   const {
     data: {
       sprites: {
