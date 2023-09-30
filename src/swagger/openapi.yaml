@@ -120,6 +120,10 @@ paths:
                   type: number
                 birthday:
                   type: string
+                email:
+                  type: string
+                password:
+                  type: string
       responses:
         "201":
           description: Created
@@ -169,6 +173,8 @@ components:
           type: number
         birthday:
           type: string
+        email:
+          type: string
         pokemon_party:
           type: array
           items:
@@ -180,6 +186,7 @@ components:
         name: ash
         age: 13
         birthday: 10/10/2023
+        email: ash@gmail.com
         pokemon_party:
           [{ id: 1, name: charizard, type: fire, weaknesses: { water: 2 } }]
         badges: 8
