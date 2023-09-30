@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import { Trainer } from "src/types/trainer/trainer";
 import { getTrainerById, createNewTrainer } from "../../services/trainer";
+import { GlobalError } from "src/types/global";
 
 export function getTrainerByIdController(req: Request, res: Response): void {
   const { trainer_id } = req.params;
@@ -8,12 +9,30 @@ export function getTrainerByIdController(req: Request, res: Response): void {
   res.status(200).json(trainer);
 }
 
-export function createTrainerController(req: Request, res: Response): void {
-  const { age, name, birthday } = req.body as {
+export async function createTrainerController(
+  req: Request,
+  res: Response
+): Promise<void> {
+  const { age, name, birthday, email, password } = req.body as {
     age: number;
     name: string;
     birthday: string;
+    email: string;
+    password: string;
   };
-  const trainer: Trainer = createNewTrainer({ age, name, birthday });
-  res.status(200).json(trainer);
+  try {
+    const trainer: Trainer = await createNewTrainer({
+      age,
+      name,
+      birthday,
+      email,
+      password,
+    });
+    res.status(200).json(trainer);
+    return;
+  } catch (error: any) {
+    const { code = 500, message = "" } = error as GlobalError;
+    res.status(code).send(message);
+    return;
+  }
 }

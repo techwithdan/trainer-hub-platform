@@ -7,6 +7,8 @@ import { trainer_router } from "./routes/trainer";
 
 const app = express();
 app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.get("/", (_: Request, res: Response) => {
