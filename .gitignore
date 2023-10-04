@@ -10,7 +10,10 @@ firebase-debug.*.log*
 # Firebase cache
 *firebase*
 .firebase/
+
+#Include
 !firebaseApp.ts
+!types/firebase/
 
 # Firebase config
 
