@@ -4,6 +4,8 @@ import { FirebaseAuthError } from "src/types/firebase/auth_error";
 import { EMAIL_ALREADY_EXISTS, INTERNAL_ERROR } from "./const";
 import { createGlobalError } from "../global";
 const firebase_auth = firebase_admin.auth();
+const firestore = firebase_admin.firestore();
+const trainers_collection = firestore.collection("trainers");
 
 const trainer: Trainer = {
   id: "1",
@@ -64,20 +66,18 @@ export async function createNewTrainer({
       email,
       password,
     });
-
-    // Add the new trainer into trainer collection
-    // set the doc id as the uid from auth
-    // set Trainer interface properties as the trainer fields
-
-    return {
-      id: uid,
+    const doc_data = {
       name,
       age,
-      email,
       birthday,
-      pokemon_party: [],
+      id: uid,
       badges: 0,
+      pokemon_party: [],
     };
+
+    const res = await trainers_collection.doc(uid).create(doc_data);
+
+    return doc_data;
   } catch (error) {
     throw createGlobalError(500, "Internal server error");
   }
