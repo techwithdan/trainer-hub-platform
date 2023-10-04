@@ -8,12 +8,13 @@ firebase-debug.log*
 firebase-debug.*.log*
 
 # Firebase cache
-*firebase*
-.firebase/
+.firebase*
+.firebaserc
+
 
 #Include
 !firebaseApp.ts
-!types/firebase/
+!src/types/firebase/*.d.ts
 
 # Firebase config
 
