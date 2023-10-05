@@ -4,6 +4,8 @@ import { FirebaseAuthError } from "src/types/firebase/auth_error";
 import { EMAIL_ALREADY_EXISTS, INTERNAL_ERROR } from "./const";
 import { createGlobalError } from "../global";
 const firebase_auth = firebase_admin.auth();
+const firestore = firebase_admin.firestore();
+const trainers_collection = firestore.collection("trainers");
 
 const trainer: Trainer = {
   id: "1",
@@ -21,7 +23,18 @@ const trainer: Trainer = {
     },
   ],
 };
-
+const birthday_check = (birthday: string): boolean => {
+  if (Number(birthday.slice(0, 2)) > 12 || Number(birthday.slice(0, 1)) < 0) {
+    return false;
+  }
+  if (Number(birthday.slice(3, 5)) > 31 || Number(birthday.slice(3, 4)) < 0) {
+    return false;
+  }
+  if (Number(birthday.slice(6, 10)) < 0) {
+    return false;
+  }
+  return true;
+};
 export function getTrainerById(id: string): Trainer {
   return trainer;
 }
@@ -56,6 +69,15 @@ export async function createNewTrainer({
     if (code === INTERNAL_ERROR) {
       throw createGlobalError(500, "Internal server error");
     }
+    if (typeof age !== "number") {
+      throw createGlobalError(400, "age must be a number");
+    }
+    if (!birthday_check(birthday)) {
+      throw createGlobalError(
+        400,
+        "date format should be as follows mm/dd/yyyy"
+      );
+    }
   }
 
   // create an auth
@@ -64,20 +86,18 @@ export async function createNewTrainer({
       email,
       password,
     });
-
-    // Add the new trainer into trainer collection
-    // set the doc id as the uid from auth
-    // set Trainer interface properties as the trainer fields
-
-    return {
-      id: uid,
+    const doc_data = {
       name,
       age,
-      email,
       birthday,
-      pokemon_party: [],
+      id: uid,
       badges: 0,
+      pokemon_party: [],
     };
+
+    const res = await trainers_collection.doc(uid).create(doc_data);
+
+    return doc_data;
   } catch (error) {
     throw createGlobalError(500, "Internal server error");
   }
