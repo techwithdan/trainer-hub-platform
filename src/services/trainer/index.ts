@@ -70,11 +70,11 @@ export async function createNewTrainer({
       throw createGlobalError(500, "Internal server error");
     }
     if (typeof age !== "number") {
-      throw createGlobalError(406, "age must be a number");
+      throw createGlobalError(400, "age must be a number");
     }
     if (!birthday_check(birthday)) {
       throw createGlobalError(
-        406,
+        400,
         "date format should be as follows mm/dd/yyyy"
       );
     }
