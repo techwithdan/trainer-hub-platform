@@ -23,7 +23,18 @@ const trainer: Trainer = {
     },
   ],
 };
-
+const birthday_check = (birthday: string): boolean => {
+  if (Number(birthday.slice(0, 2)) > 12 || Number(birthday.slice(0, 1)) < 0) {
+    return false;
+  }
+  if (Number(birthday.slice(3, 5)) > 31 || Number(birthday.slice(3, 4)) < 0) {
+    return false;
+  }
+  if (Number(birthday.slice(6, 10)) < 0) {
+    return false;
+  }
+  return true;
+};
 export function getTrainerById(id: string): Trainer {
   return trainer;
 }
@@ -57,6 +68,15 @@ export async function createNewTrainer({
 
     if (code === INTERNAL_ERROR) {
       throw createGlobalError(500, "Internal server error");
+    }
+    if (typeof age !== "number") {
+      throw createGlobalError(406, "age must be a number");
+    }
+    if (!birthday_check(birthday)) {
+      throw createGlobalError(
+        406,
+        "date format should be as follows mm/dd/yyyy"
+      );
     }
   }
 
